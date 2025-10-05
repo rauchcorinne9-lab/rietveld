@@ -54,4 +54,3 @@ class TestCase(_TestCase):
 def load_file(fname):
   """Read file and return it's content."""
   return open(os.path.join(FILES_DIR, fname)).read()/
-  
